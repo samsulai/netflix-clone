@@ -1,5 +1,5 @@
  import {SearchIcon, BellIcon} from '@heroicons/react/solid'
-import Link from 'next/Link'
+import Link from 'next/link'
 import {useState, useEffect} from 'react'
 
 function Header() {
