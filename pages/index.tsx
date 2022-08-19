@@ -28,7 +28,7 @@ const Home = ({netflixOriginals,
   } : Props) => {
   console.log(netflixOriginals)
   return (
-    <div className="relative h-screen bg-gradient-to-b from-black-500 to-transparent  lg:h-[140vh] !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600 ">
+    <div className="relative h-screen bg-gradient-to-b from-black-500 to-black-500  lg:h-[140vh] !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600 ">
       <Head>
         <title>Home - Netflix</title>
         <link rel="icon" href="/favicon.ico" />
@@ -36,7 +36,7 @@ const Home = ({netflixOriginals,
       </Head>
       <Header />
        {/*header*/}
-      <main className="relative md:pl-16 pl-5 pb-24  ">
+      <main className="relative md:pl-16 pl-5 pb-24 ">
    {/*banner*/}
    <Banner netflixOriginals={netflixOriginals}/>
    <section className="md:space-y-24">
