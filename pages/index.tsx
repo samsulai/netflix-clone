@@ -36,7 +36,7 @@ const Home = ({netflixOriginals,
       </Head>
       <Header />
        {/*header*/}
-      <main className="relative md:pl-16 pl-5 pb-24 ">
+      <main className="relative md:pl-16 pl-5 pb-24 bg-[#141414] text-white !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600">
    {/*banner*/}
    <Banner netflixOriginals={netflixOriginals}/>
    <section className="md:space-y-24">
