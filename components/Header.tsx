@@ -18,7 +18,7 @@ function Header() {
         }
 	 }, [])
 	return (
-		<header className={` ${isScrolled && 'bg-[#141414]'}`} >
+		<header className={` ${isScrolled && 'bg-[#141414]'} fixed top-0 z-50 flex w-full justify-between items-center px-4 py-4 transition-all lg:px-10 lg:py-6`} >
 			<div className="flex items-center space-x-2 md:space-x-10">
 			<img src="https://rb.gy/ulxxee" width={100} height={100} className="cursor-pointer object-contain" />
 			<ul className="hidden md:flex space-x-4">
